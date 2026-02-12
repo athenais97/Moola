@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000006 /* Assets.xcassets */; };
+		A1000041 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000042 /* Preview Assets.xcassets */; };
+		B0000001 /* OnboardingApp/Components/AccountRankingComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000001 /* OnboardingApp/Components/AccountRankingComponents.swift */; };
+		B0000002 /* OnboardingApp/Components/AccountSectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000002 /* OnboardingApp/Components/AccountSectionRow.swift */; };
+		B0000003 /* OnboardingApp/Components/AssetAllocationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000003 /* OnboardingApp/Components/AssetAllocationBar.swift */; };
+		B0000004 /* OnboardingApp/Components/AttentionCenterComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000004 /* OnboardingApp/Components/AttentionCenterComponents.swift */; };
+		B0000005 /* OnboardingApp/Components/BankLinkingComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000005 /* OnboardingApp/Components/BankLinkingComponents.swift */; };
+		B0000006 /* OnboardingApp/Components/HeroBalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000006 /* OnboardingApp/Components/HeroBalanceView.swift */; };
+		B0000007 /* OnboardingApp/Components/InsightsPaywallComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000007 /* OnboardingApp/Components/InsightsPaywallComponents.swift */; };
+		B0000008 /* OnboardingApp/Components/InteractivePerformanceChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000008 /* OnboardingApp/Components/InteractivePerformanceChart.swift */; };
+		B0000009 /* OnboardingApp/Components/KeyMoversCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000009 /* OnboardingApp/Components/KeyMoversCard.swift */; };
+		B0000010 /* OnboardingApp/Components/MarketInsightsComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000010 /* OnboardingApp/Components/MarketInsightsComponents.swift */; };
+		B0000011 /* OnboardingApp/Components/NumericKeypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000011 /* OnboardingApp/Components/NumericKeypad.swift */; };
+		B0000012 /* OnboardingApp/Components/PINDotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000012 /* OnboardingApp/Components/PINDotsView.swift */; };
+		B0000013 /* OnboardingApp/Components/PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000013 /* OnboardingApp/Components/PrimaryButton.swift */; };
+		B0000014 /* OnboardingApp/Components/QuickActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000014 /* OnboardingApp/Components/QuickActionsView.swift */; };
+		B0000015 /* OnboardingApp/Components/RecentActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000015 /* OnboardingApp/Components/RecentActivityView.swift */; };
+		B0000016 /* OnboardingApp/Components/RiskSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000016 /* OnboardingApp/Components/RiskSlider.swift */; };
+		B0000017 /* OnboardingApp/Components/SelectableCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000017 /* OnboardingApp/Components/SelectableCard.swift */; };
+		B0000018 /* OnboardingApp/Components/SparklineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000018 /* OnboardingApp/Components/SparklineView.swift */; };
+		B0000019 /* OnboardingApp/Components/StepProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000019 /* OnboardingApp/Components/StepProgressView.swift */; };
+		B0000020 /* OnboardingApp/Components/SynchronizedAccountsComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000020 /* OnboardingApp/Components/SynchronizedAccountsComponents.swift */; };
+		B0000021 /* OnboardingApp/Components/TimeframeSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000021 /* OnboardingApp/Components/TimeframeSegmentedControl.swift */; };
+		B0000022 /* OnboardingApp/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000022 /* OnboardingApp/ContentView.swift */; };
+		B0000023 /* OnboardingApp/DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000023 /* OnboardingApp/DesignSystem.swift */; };
+		B0000024 /* OnboardingApp/Models/AccountRankingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000024 /* OnboardingApp/Models/AccountRankingModels.swift */; };
+		B0000025 /* OnboardingApp/Models/AttentionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000025 /* OnboardingApp/Models/AttentionModels.swift */; };
+		B0000026 /* OnboardingApp/Models/BankLinkingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000026 /* OnboardingApp/Models/BankLinkingModels.swift */; };
+		B0000027 /* OnboardingApp/Models/InvestorProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000027 /* OnboardingApp/Models/InvestorProfile.swift */; };
+		B0000028 /* OnboardingApp/Models/InvestorProfilingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000028 /* OnboardingApp/Models/InvestorProfilingStep.swift */; };
+		B0000029 /* OnboardingApp/Models/MarketInsightsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000029 /* OnboardingApp/Models/MarketInsightsModels.swift */; };
+		B0000030 /* OnboardingApp/Models/OnboardingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000030 /* OnboardingApp/Models/OnboardingStep.swift */; };
+		B0000031 /* OnboardingApp/Models/PerformanceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000031 /* OnboardingApp/Models/PerformanceModels.swift */; };
+		B0000032 /* OnboardingApp/Models/PortfolioModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000032 /* OnboardingApp/Models/PortfolioModels.swift */; };
+		B0000091 /* OnboardingApp/Models/DashboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000091 /* OnboardingApp/Models/DashboardNotification.swift */; };
+		B0000033 /* OnboardingApp/Models/SynchronizedAccountsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000033 /* OnboardingApp/Models/SynchronizedAccountsModels.swift */; };
+		B0000034 /* OnboardingApp/Models/UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000034 /* OnboardingApp/Models/UserModel.swift */; };
+		B0000035 /* OnboardingApp/OnboardingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000035 /* OnboardingApp/OnboardingApp.swift */; };
+		B0000036 /* OnboardingApp/Services/AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000036 /* OnboardingApp/Services/AuthenticationService.swift */; };
+		B0000037 /* OnboardingApp/Services/PINService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000037 /* OnboardingApp/Services/PINService.swift */; };
+		B0000038 /* OnboardingApp/Services/ValidationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000038 /* OnboardingApp/Services/ValidationService.swift */; };
+		B0000090 /* OnboardingApp/Services/DemoDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000090 /* OnboardingApp/Services/DemoDataStore.swift */; };
+		B0000092 /* OnboardingApp/Services/PulseCreditsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000092 /* OnboardingApp/Services/PulseCreditsStore.swift */; };
+		B0000093 /* OnboardingApp/Services/DailyCreditStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000093 /* OnboardingApp/Services/DailyCreditStore.swift */; };
+		B0000039 /* OnboardingApp/ViewModels/AccountRankingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000039 /* OnboardingApp/ViewModels/AccountRankingViewModel.swift */; };
+		B0000040 /* OnboardingApp/ViewModels/AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000040 /* OnboardingApp/ViewModels/AccountViewModel.swift */; };
+		B0000041 /* OnboardingApp/ViewModels/AttentionCenterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000041 /* OnboardingApp/ViewModels/AttentionCenterViewModel.swift */; };
+		B0000042 /* OnboardingApp/ViewModels/BankLinkingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000042 /* OnboardingApp/ViewModels/BankLinkingViewModel.swift */; };
+		B0000043 /* OnboardingApp/ViewModels/InvestorProfilingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000043 /* OnboardingApp/ViewModels/InvestorProfilingViewModel.swift */; };
+		B0000044 /* OnboardingApp/ViewModels/LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000044 /* OnboardingApp/ViewModels/LoginViewModel.swift */; };
+		B0000045 /* OnboardingApp/ViewModels/MarketInsightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000045 /* OnboardingApp/ViewModels/MarketInsightsViewModel.swift */; };
+		B0000046 /* OnboardingApp/ViewModels/OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000046 /* OnboardingApp/ViewModels/OnboardingViewModel.swift */; };
+		B0000047 /* OnboardingApp/ViewModels/PerformanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000047 /* OnboardingApp/ViewModels/PerformanceViewModel.swift */; };
+		B0000048 /* OnboardingApp/ViewModels/PortfolioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000048 /* OnboardingApp/ViewModels/PortfolioViewModel.swift */; };
+		B0000049 /* OnboardingApp/ViewModels/SynchronizedAccountsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000049 /* OnboardingApp/ViewModels/SynchronizedAccountsViewModel.swift */; };
+		B0000050 /* OnboardingApp/Views/Account/AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000050 /* OnboardingApp/Views/Account/AccountView.swift */; };
+		B0000051 /* OnboardingApp/Views/Account/HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000051 /* OnboardingApp/Views/Account/HelpView.swift */; };
+		B0000052 /* OnboardingApp/Views/Account/LegalDocumentsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000052 /* OnboardingApp/Views/Account/LegalDocumentsSheet.swift */; };
+		B0000053 /* OnboardingApp/Views/Account/NotificationsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000053 /* OnboardingApp/Views/Account/NotificationsSettingsView.swift */; };
+		B0000054 /* OnboardingApp/Views/Account/PersonalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000054 /* OnboardingApp/Views/Account/PersonalInfoView.swift */; };
+		B0000055 /* OnboardingApp/Views/Account/SyncedAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000055 /* OnboardingApp/Views/Account/SyncedAccountsView.swift */; };
+		B0000056 /* OnboardingApp/Views/AccountRankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000056 /* OnboardingApp/Views/AccountRankingView.swift */; };
+		B0000057 /* OnboardingApp/Views/AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000057 /* OnboardingApp/Views/AnalysisView.swift */; };
+		B0000058 /* OnboardingApp/Views/AuthEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000058 /* OnboardingApp/Views/AuthEntryView.swift */; };
+		B0000059 /* OnboardingApp/Views/BankLinking/AccountSelectionStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000059 /* OnboardingApp/Views/BankLinking/AccountSelectionStepView.swift */; };
+		B0000060 /* OnboardingApp/Views/BankLinking/BankLinkingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000060 /* OnboardingApp/Views/BankLinking/BankLinkingContainerView.swift */; };
+		B0000061 /* OnboardingApp/Views/BankLinking/BankSelectionStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000061 /* OnboardingApp/Views/BankLinking/BankSelectionStepView.swift */; };
+		B0000062 /* OnboardingApp/Views/BankLinking/SecureBridgeInterstitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000062 /* OnboardingApp/Views/BankLinking/SecureBridgeInterstitialView.swift */; };
+		B0000063 /* OnboardingApp/Views/ForgotPINView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000063 /* OnboardingApp/Views/ForgotPINView.swift */; };
+		B0000064 /* OnboardingApp/Views/FullAnalysisSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000064 /* OnboardingApp/Views/FullAnalysisSheet.swift */; };
+		B0000065 /* OnboardingApp/Views/HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000065 /* OnboardingApp/Views/HomeView.swift */; };
+		B0000066 /* OnboardingApp/Views/InvestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000066 /* OnboardingApp/Views/InvestView.swift */; };
+		B0000067 /* OnboardingApp/Views/InvestorProfilingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000067 /* OnboardingApp/Views/InvestorProfilingContainerView.swift */; };
+		B0000068 /* OnboardingApp/Views/LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000068 /* OnboardingApp/Views/LoginView.swift */; };
+		B0000069 /* OnboardingApp/Views/MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000069 /* OnboardingApp/Views/MainTabView.swift */; };
+		B0000070 /* OnboardingApp/Views/MarketInsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000070 /* OnboardingApp/Views/MarketInsightsView.swift */; };
+		B0000071 /* OnboardingApp/Views/OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000071 /* OnboardingApp/Views/OnboardingContainerView.swift */; };
+		B0000072 /* OnboardingApp/Views/PerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000072 /* OnboardingApp/Views/PerformanceView.swift */; };
+		B0000073 /* OnboardingApp/Views/ProfilingSteps/InvestmentObjectiveStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000073 /* OnboardingApp/Views/ProfilingSteps/InvestmentObjectiveStepView.swift */; };
+		B0000074 /* OnboardingApp/Views/ProfilingSteps/KnowledgeLevelStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000074 /* OnboardingApp/Views/ProfilingSteps/KnowledgeLevelStepView.swift */; };
+		B0000075 /* OnboardingApp/Views/ProfilingSteps/RiskAppetiteStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000075 /* OnboardingApp/Views/ProfilingSteps/RiskAppetiteStepView.swift */; };
+		B0000076 /* OnboardingApp/Views/PulseAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000076 /* OnboardingApp/Views/PulseAssistantView.swift */; };
+		B0000077 /* OnboardingApp/Views/PulseDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000077 /* OnboardingApp/Views/PulseDashboardView.swift */; };
+		B0000094 /* OnboardingApp/Views/DailyCredit/DailyCreditSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000094 /* OnboardingApp/Views/DailyCredit/DailyCreditSheet.swift */; };
+		B0000095 /* OnboardingApp/Views/DailyCredit/DailyCreditSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000095 /* OnboardingApp/Views/DailyCredit/DailyCreditSuccessView.swift */; };
+		B0000078 /* OnboardingApp/Views/PulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000078 /* OnboardingApp/Views/PulseView.swift */; };
+		B0000079 /* OnboardingApp/Views/Steps/AgeStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000079 /* OnboardingApp/Views/Steps/AgeStepView.swift */; };
+		B0000080 /* OnboardingApp/Views/Steps/EmailStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000080 /* OnboardingApp/Views/Steps/EmailStepView.swift */; };
+		B0000081 /* OnboardingApp/Views/Steps/NameStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000081 /* OnboardingApp/Views/Steps/NameStepView.swift */; };
+		B0000082 /* OnboardingApp/Views/Steps/PINConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000082 /* OnboardingApp/Views/Steps/PINConfirmationView.swift */; };
+		B0000083 /* OnboardingApp/Views/Steps/PINCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000083 /* OnboardingApp/Views/Steps/PINCreationView.swift */; };
+		B0000084 /* OnboardingApp/Views/Steps/VerificationStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000084 /* OnboardingApp/Views/Steps/VerificationStepView.swift */; };
+		B0000085 /* OnboardingApp/Views/AuthLandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000085 /* OnboardingApp/Views/AuthLandingView.swift */; };
+		B0000086 /* OnboardingApp/Views/Account/AccountsCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000086 /* OnboardingApp/Views/Account/AccountsCardsView.swift */; };
+		B0000087 /* OnboardingApp/Components/AccountVirtualCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000087 /* OnboardingApp/Components/AccountVirtualCardView.swift */; };
+		B0000088 /* OnboardingApp/Components/AccountDetailsBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000088 /* OnboardingApp/Components/AccountDetailsBottomSheet.swift */; };
+		B0000089 /* OnboardingApp/Components/PerformanceCTAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0000089 /* OnboardingApp/Components/PerformanceCTAView.swift */; };
+		CEC3A3D92F3BB0A200738883 /* IBMPlexSansHebrew-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEC3A3D62F3BB0A200738883 /* IBMPlexSansHebrew-Regular.ttf */; };
+		CEC3A3DA2F3BB0A200738883 /* IBMPlexSansHebrew-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEC3A3D72F3BB0A200738883 /* IBMPlexSansHebrew-SemiBold.ttf */; };
+		CEC3A3DB2F3BB0A200738883 /* IBMPlexSansHebrew-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEC3A3D22F3BB0A200738883 /* IBMPlexSansHebrew-Bold.ttf */; };
+		CEC3A3DC2F3BB0A200738883 /* IBMPlexSansHebrew-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEC3A3D32F3BB0A200738883 /* IBMPlexSansHebrew-ExtraLight.ttf */; };
+		CEC3A3DD2F3BB0A200738883 /* IBMPlexSansHebrew-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEC3A3D52F3BB0A200738883 /* IBMPlexSansHebrew-Medium.ttf */; };
+		CEC3A3DE2F3BB0A200738883 /* IBMPlexSansHebrew-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEC3A3D42F3BB0A200738883 /* IBMPlexSansHebrew-Light.ttf */; };
+		CEC3A3DF2F3BB0A200738883 /* IBMPlexSansHebrew-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEC3A3D82F3BB0A200738883 /* IBMPlexSansHebrew-Thin.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1000002 /* OnboardingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp.swift; sourceTree = "<group>"; };
+		A1000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1000008 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		A1000010 /* OnboardingStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStep.swift; sourceTree = "<group>"; };
+		A1000012 /* NameStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameStepView.swift; sourceTree = "<group>"; };
+		A1000014 /* AgeStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeStepView.swift; sourceTree = "<group>"; };
+		A1000016 /* EmailStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailStepView.swift; sourceTree = "<group>"; };
+		A1000018 /* VerificationStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationStepView.swift; sourceTree = "<group>"; };
+		A1000020 /* PINCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINCreationView.swift; sourceTree = "<group>"; };
+		A1000022 /* PINConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINConfirmationView.swift; sourceTree = "<group>"; };
+		A1000024 /* NumericKeypad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericKeypad.swift; sourceTree = "<group>"; };
+		A1000026 /* PINDotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINDotsView.swift; sourceTree = "<group>"; };
+		A1000028 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		A1000030 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		A1000032 /* StepProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepProgressView.swift; sourceTree = "<group>"; };
+		A1000034 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		A1000036 /* ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationService.swift; sourceTree = "<group>"; };
+		A1000038 /* PINService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINService.swift; sourceTree = "<group>"; };
+		A1000040 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A1000042 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1000100 /* Moola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moola.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC3A3D22F3BB0A200738883 /* IBMPlexSansHebrew-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexSansHebrew-Bold.ttf"; path = Moula/Ressources/Fonts/IBMPlexSansHebrew-Bold.ttf; sourceTree = SOURCE_ROOT; };
+		CEC3A3D32F3BB0A200738883 /* IBMPlexSansHebrew-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexSansHebrew-ExtraLight.ttf"; path = Moula/Ressources/Fonts/IBMPlexSansHebrew-ExtraLight.ttf; sourceTree = SOURCE_ROOT; };
+		CEC3A3D42F3BB0A200738883 /* IBMPlexSansHebrew-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexSansHebrew-Light.ttf"; path = Moula/Ressources/Fonts/IBMPlexSansHebrew-Light.ttf; sourceTree = SOURCE_ROOT; };
+		CEC3A3D52F3BB0A200738883 /* IBMPlexSansHebrew-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexSansHebrew-Medium.ttf"; path = Moula/Ressources/Fonts/IBMPlexSansHebrew-Medium.ttf; sourceTree = SOURCE_ROOT; };
+		CEC3A3D62F3BB0A200738883 /* IBMPlexSansHebrew-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexSansHebrew-Regular.ttf"; path = Moula/Ressources/Fonts/IBMPlexSansHebrew-Regular.ttf; sourceTree = SOURCE_ROOT; };
+		CEC3A3D72F3BB0A200738883 /* IBMPlexSansHebrew-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexSansHebrew-SemiBold.ttf"; path = Moula/Ressources/Fonts/IBMPlexSansHebrew-SemiBold.ttf; sourceTree = SOURCE_ROOT; };
+		CEC3A3D82F3BB0A200738883 /* IBMPlexSansHebrew-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexSansHebrew-Thin.ttf"; path = Moula/Ressources/Fonts/IBMPlexSansHebrew-Thin.ttf; sourceTree = SOURCE_ROOT; };
+		F0000001 /* OnboardingApp/Components/AccountRankingComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/AccountRankingComponents.swift; sourceTree = SOURCE_ROOT; };
+		F0000002 /* OnboardingApp/Components/AccountSectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/AccountSectionRow.swift; sourceTree = SOURCE_ROOT; };
+		F0000003 /* OnboardingApp/Components/AssetAllocationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/AssetAllocationBar.swift; sourceTree = SOURCE_ROOT; };
+		F0000004 /* OnboardingApp/Components/AttentionCenterComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/AttentionCenterComponents.swift; sourceTree = SOURCE_ROOT; };
+		F0000005 /* OnboardingApp/Components/BankLinkingComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/BankLinkingComponents.swift; sourceTree = SOURCE_ROOT; };
+		F0000006 /* OnboardingApp/Components/HeroBalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/HeroBalanceView.swift; sourceTree = SOURCE_ROOT; };
+		F0000007 /* OnboardingApp/Components/InsightsPaywallComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/InsightsPaywallComponents.swift; sourceTree = SOURCE_ROOT; };
+		F0000008 /* OnboardingApp/Components/InteractivePerformanceChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/InteractivePerformanceChart.swift; sourceTree = SOURCE_ROOT; };
+		F0000009 /* OnboardingApp/Components/KeyMoversCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/KeyMoversCard.swift; sourceTree = SOURCE_ROOT; };
+		F0000010 /* OnboardingApp/Components/MarketInsightsComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/MarketInsightsComponents.swift; sourceTree = SOURCE_ROOT; };
+		F0000011 /* OnboardingApp/Components/NumericKeypad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/NumericKeypad.swift; sourceTree = SOURCE_ROOT; };
+		F0000012 /* OnboardingApp/Components/PINDotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/PINDotsView.swift; sourceTree = SOURCE_ROOT; };
+		F0000013 /* OnboardingApp/Components/PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/PrimaryButton.swift; sourceTree = SOURCE_ROOT; };
+		F0000014 /* OnboardingApp/Components/QuickActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/QuickActionsView.swift; sourceTree = SOURCE_ROOT; };
+		F0000015 /* OnboardingApp/Components/RecentActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/RecentActivityView.swift; sourceTree = SOURCE_ROOT; };
+		F0000016 /* OnboardingApp/Components/RiskSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/RiskSlider.swift; sourceTree = SOURCE_ROOT; };
+		F0000017 /* OnboardingApp/Components/SelectableCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/SelectableCard.swift; sourceTree = SOURCE_ROOT; };
+		F0000018 /* OnboardingApp/Components/SparklineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/SparklineView.swift; sourceTree = SOURCE_ROOT; };
+		F0000019 /* OnboardingApp/Components/StepProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/StepProgressView.swift; sourceTree = SOURCE_ROOT; };
+		F0000020 /* OnboardingApp/Components/SynchronizedAccountsComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/SynchronizedAccountsComponents.swift; sourceTree = SOURCE_ROOT; };
+		F0000021 /* OnboardingApp/Components/TimeframeSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/TimeframeSegmentedControl.swift; sourceTree = SOURCE_ROOT; };
+		F0000022 /* OnboardingApp/ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/ContentView.swift; sourceTree = SOURCE_ROOT; };
+		F0000023 /* OnboardingApp/DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/DesignSystem.swift; sourceTree = SOURCE_ROOT; };
+		F0000024 /* OnboardingApp/Models/AccountRankingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Models/AccountRankingModels.swift; sourceTree = SOURCE_ROOT; };
+		F0000025 /* OnboardingApp/Models/AttentionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Models/AttentionModels.swift; sourceTree = SOURCE_ROOT; };
+		F0000026 /* OnboardingApp/Models/BankLinkingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Models/BankLinkingModels.swift; sourceTree = SOURCE_ROOT; };
+		F0000027 /* OnboardingApp/Models/InvestorProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Models/InvestorProfile.swift; sourceTree = SOURCE_ROOT; };
+		F0000028 /* OnboardingApp/Models/InvestorProfilingStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Models/InvestorProfilingStep.swift; sourceTree = SOURCE_ROOT; };
+		F0000029 /* OnboardingApp/Models/MarketInsightsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Models/MarketInsightsModels.swift; sourceTree = SOURCE_ROOT; };
+		F0000030 /* OnboardingApp/Models/OnboardingStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Models/OnboardingStep.swift; sourceTree = SOURCE_ROOT; };
+		F0000031 /* OnboardingApp/Models/PerformanceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Models/PerformanceModels.swift; sourceTree = SOURCE_ROOT; };
+		F0000032 /* OnboardingApp/Models/PortfolioModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Models/PortfolioModels.swift; sourceTree = SOURCE_ROOT; };
+		F0000091 /* OnboardingApp/Models/DashboardNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Models/DashboardNotification.swift; sourceTree = SOURCE_ROOT; };
+		F0000033 /* OnboardingApp/Models/SynchronizedAccountsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Models/SynchronizedAccountsModels.swift; sourceTree = SOURCE_ROOT; };
+		F0000034 /* OnboardingApp/Models/UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Models/UserModel.swift; sourceTree = SOURCE_ROOT; };
+		F0000035 /* OnboardingApp/OnboardingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/OnboardingApp.swift; sourceTree = SOURCE_ROOT; };
+		F0000036 /* OnboardingApp/Services/AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Services/AuthenticationService.swift; sourceTree = SOURCE_ROOT; };
+		F0000037 /* OnboardingApp/Services/PINService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Services/PINService.swift; sourceTree = SOURCE_ROOT; };
+		F0000038 /* OnboardingApp/Services/ValidationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Services/ValidationService.swift; sourceTree = SOURCE_ROOT; };
+		F0000090 /* OnboardingApp/Services/DemoDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Services/DemoDataStore.swift; sourceTree = SOURCE_ROOT; };
+		F0000092 /* OnboardingApp/Services/PulseCreditsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Services/PulseCreditsStore.swift; sourceTree = SOURCE_ROOT; };
+		F0000093 /* OnboardingApp/Services/DailyCreditStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Services/DailyCreditStore.swift; sourceTree = SOURCE_ROOT; };
+		F0000039 /* OnboardingApp/ViewModels/AccountRankingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/ViewModels/AccountRankingViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F0000040 /* OnboardingApp/ViewModels/AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/ViewModels/AccountViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F0000041 /* OnboardingApp/ViewModels/AttentionCenterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/ViewModels/AttentionCenterViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F0000042 /* OnboardingApp/ViewModels/BankLinkingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/ViewModels/BankLinkingViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F0000043 /* OnboardingApp/ViewModels/InvestorProfilingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/ViewModels/InvestorProfilingViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F0000044 /* OnboardingApp/ViewModels/LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/ViewModels/LoginViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F0000045 /* OnboardingApp/ViewModels/MarketInsightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/ViewModels/MarketInsightsViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F0000046 /* OnboardingApp/ViewModels/OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/ViewModels/OnboardingViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F0000047 /* OnboardingApp/ViewModels/PerformanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/ViewModels/PerformanceViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F0000048 /* OnboardingApp/ViewModels/PortfolioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/ViewModels/PortfolioViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F0000049 /* OnboardingApp/ViewModels/SynchronizedAccountsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/ViewModels/SynchronizedAccountsViewModel.swift; sourceTree = SOURCE_ROOT; };
+		F0000050 /* OnboardingApp/Views/Account/AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/Account/AccountView.swift; sourceTree = SOURCE_ROOT; };
+		F0000051 /* OnboardingApp/Views/Account/HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/Account/HelpView.swift; sourceTree = SOURCE_ROOT; };
+		F0000052 /* OnboardingApp/Views/Account/LegalDocumentsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/Account/LegalDocumentsSheet.swift; sourceTree = SOURCE_ROOT; };
+		F0000053 /* OnboardingApp/Views/Account/NotificationsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/Account/NotificationsSettingsView.swift; sourceTree = SOURCE_ROOT; };
+		F0000054 /* OnboardingApp/Views/Account/PersonalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/Account/PersonalInfoView.swift; sourceTree = SOURCE_ROOT; };
+		F0000055 /* OnboardingApp/Views/Account/SyncedAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/Account/SyncedAccountsView.swift; sourceTree = SOURCE_ROOT; };
+		F0000056 /* OnboardingApp/Views/AccountRankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/AccountRankingView.swift; sourceTree = SOURCE_ROOT; };
+		F0000057 /* OnboardingApp/Views/AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/AnalysisView.swift; sourceTree = SOURCE_ROOT; };
+		F0000058 /* OnboardingApp/Views/AuthEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/AuthEntryView.swift; sourceTree = SOURCE_ROOT; };
+		F0000059 /* OnboardingApp/Views/BankLinking/AccountSelectionStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/BankLinking/AccountSelectionStepView.swift; sourceTree = SOURCE_ROOT; };
+		F0000060 /* OnboardingApp/Views/BankLinking/BankLinkingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/BankLinking/BankLinkingContainerView.swift; sourceTree = SOURCE_ROOT; };
+		F0000061 /* OnboardingApp/Views/BankLinking/BankSelectionStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/BankLinking/BankSelectionStepView.swift; sourceTree = SOURCE_ROOT; };
+		F0000062 /* OnboardingApp/Views/BankLinking/SecureBridgeInterstitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/BankLinking/SecureBridgeInterstitialView.swift; sourceTree = SOURCE_ROOT; };
+		F0000063 /* OnboardingApp/Views/ForgotPINView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/ForgotPINView.swift; sourceTree = SOURCE_ROOT; };
+		F0000064 /* OnboardingApp/Views/FullAnalysisSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/FullAnalysisSheet.swift; sourceTree = SOURCE_ROOT; };
+		F0000065 /* OnboardingApp/Views/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/HomeView.swift; sourceTree = SOURCE_ROOT; };
+		F0000066 /* OnboardingApp/Views/InvestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/InvestView.swift; sourceTree = SOURCE_ROOT; };
+		F0000067 /* OnboardingApp/Views/InvestorProfilingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/InvestorProfilingContainerView.swift; sourceTree = SOURCE_ROOT; };
+		F0000068 /* OnboardingApp/Views/LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/LoginView.swift; sourceTree = SOURCE_ROOT; };
+		F0000069 /* OnboardingApp/Views/MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/MainTabView.swift; sourceTree = SOURCE_ROOT; };
+		F0000070 /* OnboardingApp/Views/MarketInsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/MarketInsightsView.swift; sourceTree = SOURCE_ROOT; };
+		F0000071 /* OnboardingApp/Views/OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/OnboardingContainerView.swift; sourceTree = SOURCE_ROOT; };
+		F0000072 /* OnboardingApp/Views/PerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/PerformanceView.swift; sourceTree = SOURCE_ROOT; };
+		F0000073 /* OnboardingApp/Views/ProfilingSteps/InvestmentObjectiveStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/ProfilingSteps/InvestmentObjectiveStepView.swift; sourceTree = SOURCE_ROOT; };
+		F0000074 /* OnboardingApp/Views/ProfilingSteps/KnowledgeLevelStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/ProfilingSteps/KnowledgeLevelStepView.swift; sourceTree = SOURCE_ROOT; };
+		F0000075 /* OnboardingApp/Views/ProfilingSteps/RiskAppetiteStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/ProfilingSteps/RiskAppetiteStepView.swift; sourceTree = SOURCE_ROOT; };
+		F0000076 /* OnboardingApp/Views/PulseAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/PulseAssistantView.swift; sourceTree = SOURCE_ROOT; };
+		F0000077 /* OnboardingApp/Views/PulseDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/PulseDashboardView.swift; sourceTree = SOURCE_ROOT; };
+		F0000094 /* OnboardingApp/Views/DailyCredit/DailyCreditSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/DailyCredit/DailyCreditSheet.swift; sourceTree = SOURCE_ROOT; };
+		F0000095 /* OnboardingApp/Views/DailyCredit/DailyCreditSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/DailyCredit/DailyCreditSuccessView.swift; sourceTree = SOURCE_ROOT; };
+		F0000078 /* OnboardingApp/Views/PulseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/PulseView.swift; sourceTree = SOURCE_ROOT; };
+		F0000079 /* OnboardingApp/Views/Steps/AgeStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/Steps/AgeStepView.swift; sourceTree = SOURCE_ROOT; };
+		F0000080 /* OnboardingApp/Views/Steps/EmailStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/Steps/EmailStepView.swift; sourceTree = SOURCE_ROOT; };
+		F0000081 /* OnboardingApp/Views/Steps/NameStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/Steps/NameStepView.swift; sourceTree = SOURCE_ROOT; };
+		F0000082 /* OnboardingApp/Views/Steps/PINConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/Steps/PINConfirmationView.swift; sourceTree = SOURCE_ROOT; };
+		F0000083 /* OnboardingApp/Views/Steps/PINCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/Steps/PINCreationView.swift; sourceTree = SOURCE_ROOT; };
+		F0000084 /* OnboardingApp/Views/Steps/VerificationStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/Steps/VerificationStepView.swift; sourceTree = SOURCE_ROOT; };
+		F0000085 /* OnboardingApp/Views/AuthLandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/AuthLandingView.swift; sourceTree = SOURCE_ROOT; };
+		F0000086 /* OnboardingApp/Views/Account/AccountsCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Views/Account/AccountsCardsView.swift; sourceTree = SOURCE_ROOT; };
+		F0000087 /* OnboardingApp/Components/AccountVirtualCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/AccountVirtualCardView.swift; sourceTree = SOURCE_ROOT; };
+		F0000088 /* OnboardingApp/Components/AccountDetailsBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/AccountDetailsBottomSheet.swift; sourceTree = SOURCE_ROOT; };
+		F0000089 /* OnboardingApp/Components/PerformanceCTAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingApp/Components/PerformanceCTAView.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1000200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1000300 = {
+			isa = PBXGroup;
+			children = (
+				A1000301 /* OnboardingApp */,
+				A1000302 /* Products */,
+				CE0D19912F3B866600F4013B /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		A1000301 /* OnboardingApp */ = {
+			isa = PBXGroup;
+			children = (
+				A1000002 /* OnboardingApp.swift */,
+				A1000004 /* ContentView.swift */,
+				A1000303 /* Views */,
+				A1000304 /* ViewModels */,
+				A1000305 /* Models */,
+				A1000306 /* Services */,
+				A1000307 /* Components */,
+				A1000006 /* Assets.xcassets */,
+				A1000308 /* Preview Content */,
+				CEC3A3D22F3BB0A200738883 /* IBMPlexSansHebrew-Bold.ttf */,
+				CEC3A3D32F3BB0A200738883 /* IBMPlexSansHebrew-ExtraLight.ttf */,
+				CEC3A3D42F3BB0A200738883 /* IBMPlexSansHebrew-Light.ttf */,
+				CEC3A3D52F3BB0A200738883 /* IBMPlexSansHebrew-Medium.ttf */,
+				CEC3A3D62F3BB0A200738883 /* IBMPlexSansHebrew-Regular.ttf */,
+				CEC3A3D72F3BB0A200738883 /* IBMPlexSansHebrew-SemiBold.ttf */,
+				CEC3A3D82F3BB0A200738883 /* IBMPlexSansHebrew-Thin.ttf */,
+			);
+			path = OnboardingApp;
+			sourceTree = "<group>";
+		};
+		A1000302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000100 /* Moola.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1000303 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1000028 /* OnboardingContainerView.swift */,
+				A1000309 /* Steps */,
+				A1000040 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1000304 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A1000008 /* OnboardingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A1000305 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1000010 /* OnboardingStep.swift */,
+				A1000034 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1000306 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1000036 /* ValidationService.swift */,
+				A1000038 /* PINService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1000307 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A1000024 /* NumericKeypad.swift */,
+				A1000026 /* PINDotsView.swift */,
+				A1000030 /* PrimaryButton.swift */,
+				A1000032 /* StepProgressView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A1000308 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1000042 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1000309 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				A1000012 /* NameStepView.swift */,
+				A1000014 /* AgeStepView.swift */,
+				A1000016 /* EmailStepView.swift */,
+				A1000018 /* VerificationStepView.swift */,
+				A1000020 /* PINCreationView.swift */,
+				A1000022 /* PINConfirmationView.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		CE0D19912F3B866600F4013B /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				F0000086 /* OnboardingApp/Views/Account/AccountsCardsView.swift */,
+				F0000087 /* OnboardingApp/Components/AccountVirtualCardView.swift */,
+				F0000088 /* OnboardingApp/Components/AccountDetailsBottomSheet.swift */,
+				F0000089 /* OnboardingApp/Components/PerformanceCTAView.swift */,
+				F0000001 /* OnboardingApp/Components/AccountRankingComponents.swift */,
+				F0000002 /* OnboardingApp/Components/AccountSectionRow.swift */,
+				F0000003 /* OnboardingApp/Components/AssetAllocationBar.swift */,
+				F0000004 /* OnboardingApp/Components/AttentionCenterComponents.swift */,
+				F0000005 /* OnboardingApp/Components/BankLinkingComponents.swift */,
+				F0000006 /* OnboardingApp/Components/HeroBalanceView.swift */,
+				F0000007 /* OnboardingApp/Components/InsightsPaywallComponents.swift */,
+				F0000008 /* OnboardingApp/Components/InteractivePerformanceChart.swift */,
+				F0000009 /* OnboardingApp/Components/KeyMoversCard.swift */,
+				F0000010 /* OnboardingApp/Components/MarketInsightsComponents.swift */,
+				F0000011 /* OnboardingApp/Components/NumericKeypad.swift */,
+				F0000012 /* OnboardingApp/Components/PINDotsView.swift */,
+				F0000013 /* OnboardingApp/Components/PrimaryButton.swift */,
+				F0000014 /* OnboardingApp/Components/QuickActionsView.swift */,
+				F0000015 /* OnboardingApp/Components/RecentActivityView.swift */,
+				F0000016 /* OnboardingApp/Components/RiskSlider.swift */,
+				F0000017 /* OnboardingApp/Components/SelectableCard.swift */,
+				F0000018 /* OnboardingApp/Components/SparklineView.swift */,
+				F0000019 /* OnboardingApp/Components/StepProgressView.swift */,
+				F0000020 /* OnboardingApp/Components/SynchronizedAccountsComponents.swift */,
+				F0000021 /* OnboardingApp/Components/TimeframeSegmentedControl.swift */,
+				F0000022 /* OnboardingApp/ContentView.swift */,
+				F0000023 /* OnboardingApp/DesignSystem.swift */,
+				F0000024 /* OnboardingApp/Models/AccountRankingModels.swift */,
+				F0000025 /* OnboardingApp/Models/AttentionModels.swift */,
+				F0000026 /* OnboardingApp/Models/BankLinkingModels.swift */,
+				F0000027 /* OnboardingApp/Models/InvestorProfile.swift */,
+				F0000028 /* OnboardingApp/Models/InvestorProfilingStep.swift */,
+				F0000029 /* OnboardingApp/Models/MarketInsightsModels.swift */,
+				F0000030 /* OnboardingApp/Models/OnboardingStep.swift */,
+				F0000031 /* OnboardingApp/Models/PerformanceModels.swift */,
+				F0000032 /* OnboardingApp/Models/PortfolioModels.swift */,
+				F0000091 /* OnboardingApp/Models/DashboardNotification.swift */,
+				F0000033 /* OnboardingApp/Models/SynchronizedAccountsModels.swift */,
+				F0000034 /* OnboardingApp/Models/UserModel.swift */,
+				F0000035 /* OnboardingApp/OnboardingApp.swift */,
+				F0000036 /* OnboardingApp/Services/AuthenticationService.swift */,
+				F0000037 /* OnboardingApp/Services/PINService.swift */,
+				F0000038 /* OnboardingApp/Services/ValidationService.swift */,
+				F0000090 /* OnboardingApp/Services/DemoDataStore.swift */,
+				F0000092 /* OnboardingApp/Services/PulseCreditsStore.swift */,
+				F0000093 /* OnboardingApp/Services/DailyCreditStore.swift */,
+				F0000039 /* OnboardingApp/ViewModels/AccountRankingViewModel.swift */,
+				F0000040 /* OnboardingApp/ViewModels/AccountViewModel.swift */,
+				F0000041 /* OnboardingApp/ViewModels/AttentionCenterViewModel.swift */,
+				F0000042 /* OnboardingApp/ViewModels/BankLinkingViewModel.swift */,
+				F0000043 /* OnboardingApp/ViewModels/InvestorProfilingViewModel.swift */,
+				F0000044 /* OnboardingApp/ViewModels/LoginViewModel.swift */,
+				F0000045 /* OnboardingApp/ViewModels/MarketInsightsViewModel.swift */,
+				F0000046 /* OnboardingApp/ViewModels/OnboardingViewModel.swift */,
+				F0000047 /* OnboardingApp/ViewModels/PerformanceViewModel.swift */,
+				F0000048 /* OnboardingApp/ViewModels/PortfolioViewModel.swift */,
+				F0000049 /* OnboardingApp/ViewModels/SynchronizedAccountsViewModel.swift */,
+				F0000050 /* OnboardingApp/Views/Account/AccountView.swift */,
+				F0000051 /* OnboardingApp/Views/Account/HelpView.swift */,
+				F0000052 /* OnboardingApp/Views/Account/LegalDocumentsSheet.swift */,
+				F0000053 /* OnboardingApp/Views/Account/NotificationsSettingsView.swift */,
+				F0000054 /* OnboardingApp/Views/Account/PersonalInfoView.swift */,
+				F0000055 /* OnboardingApp/Views/Account/SyncedAccountsView.swift */,
+				F0000056 /* OnboardingApp/Views/AccountRankingView.swift */,
+				F0000057 /* OnboardingApp/Views/AnalysisView.swift */,
+				F0000058 /* OnboardingApp/Views/AuthEntryView.swift */,
+				F0000059 /* OnboardingApp/Views/BankLinking/AccountSelectionStepView.swift */,
+				F0000060 /* OnboardingApp/Views/BankLinking/BankLinkingContainerView.swift */,
+				F0000061 /* OnboardingApp/Views/BankLinking/BankSelectionStepView.swift */,
+				F0000062 /* OnboardingApp/Views/BankLinking/SecureBridgeInterstitialView.swift */,
+				F0000063 /* OnboardingApp/Views/ForgotPINView.swift */,
+				F0000064 /* OnboardingApp/Views/FullAnalysisSheet.swift */,
+				F0000065 /* OnboardingApp/Views/HomeView.swift */,
+				F0000066 /* OnboardingApp/Views/InvestView.swift */,
+				F0000067 /* OnboardingApp/Views/InvestorProfilingContainerView.swift */,
+				F0000068 /* OnboardingApp/Views/LoginView.swift */,
+				F0000069 /* OnboardingApp/Views/MainTabView.swift */,
+				F0000070 /* OnboardingApp/Views/MarketInsightsView.swift */,
+				F0000071 /* OnboardingApp/Views/OnboardingContainerView.swift */,
+				F0000072 /* OnboardingApp/Views/PerformanceView.swift */,
+				F0000073 /* OnboardingApp/Views/ProfilingSteps/InvestmentObjectiveStepView.swift */,
+				F0000074 /* OnboardingApp/Views/ProfilingSteps/KnowledgeLevelStepView.swift */,
+				F0000075 /* OnboardingApp/Views/ProfilingSteps/RiskAppetiteStepView.swift */,
+				F0000076 /* OnboardingApp/Views/PulseAssistantView.swift */,
+				F0000077 /* OnboardingApp/Views/PulseDashboardView.swift */,
+				F0000094 /* OnboardingApp/Views/DailyCredit/DailyCreditSheet.swift */,
+				F0000095 /* OnboardingApp/Views/DailyCredit/DailyCreditSuccessView.swift */,
+				F0000078 /* OnboardingApp/Views/PulseView.swift */,
+				F0000079 /* OnboardingApp/Views/Steps/AgeStepView.swift */,
+				F0000080 /* OnboardingApp/Views/Steps/EmailStepView.swift */,
+				F0000081 /* OnboardingApp/Views/Steps/NameStepView.swift */,
+				F0000082 /* OnboardingApp/Views/Steps/PINConfirmationView.swift */,
+				F0000083 /* OnboardingApp/Views/Steps/PINCreationView.swift */,
+				F0000084 /* OnboardingApp/Views/Steps/VerificationStepView.swift */,
+				F0000085 /* OnboardingApp/Views/AuthLandingView.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1000400 /* Moola */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000401 /* Build configuration list for PBXNativeTarget "Moola" */;
+			buildPhases = (
+				A1000402 /* Sources */,
+				A1000200 /* Frameworks */,
+				A1000403 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moola;
+			productName = Moola;
+			productReference = A1000100 /* Moola.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1000500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A1000400 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A1000501 /* Build configuration list for PBXProject "Moola" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1000300;
+			productRefGroup = A1000302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1000400 /* Moola */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1000403 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000041 /* Preview Assets.xcassets in Resources */,
+				CEC3A3D92F3BB0A200738883 /* IBMPlexSansHebrew-Regular.ttf in Resources */,
+				CEC3A3DA2F3BB0A200738883 /* IBMPlexSansHebrew-SemiBold.ttf in Resources */,
+				CEC3A3DB2F3BB0A200738883 /* IBMPlexSansHebrew-Bold.ttf in Resources */,
+				CEC3A3DC2F3BB0A200738883 /* IBMPlexSansHebrew-ExtraLight.ttf in Resources */,
+				CEC3A3DD2F3BB0A200738883 /* IBMPlexSansHebrew-Medium.ttf in Resources */,
+				CEC3A3DE2F3BB0A200738883 /* IBMPlexSansHebrew-Light.ttf in Resources */,
+				CEC3A3DF2F3BB0A200738883 /* IBMPlexSansHebrew-Thin.ttf in Resources */,
+				A1000005 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1000402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0000086 /* OnboardingApp/Views/Account/AccountsCardsView.swift in Sources */,
+				B0000087 /* OnboardingApp/Components/AccountVirtualCardView.swift in Sources */,
+				B0000088 /* OnboardingApp/Components/AccountDetailsBottomSheet.swift in Sources */,
+				B0000089 /* OnboardingApp/Components/PerformanceCTAView.swift in Sources */,
+				B0000001 /* OnboardingApp/Components/AccountRankingComponents.swift in Sources */,
+				B0000002 /* OnboardingApp/Components/AccountSectionRow.swift in Sources */,
+				B0000003 /* OnboardingApp/Components/AssetAllocationBar.swift in Sources */,
+				B0000004 /* OnboardingApp/Components/AttentionCenterComponents.swift in Sources */,
+				B0000005 /* OnboardingApp/Components/BankLinkingComponents.swift in Sources */,
+				B0000006 /* OnboardingApp/Components/HeroBalanceView.swift in Sources */,
+				B0000007 /* OnboardingApp/Components/InsightsPaywallComponents.swift in Sources */,
+				B0000008 /* OnboardingApp/Components/InteractivePerformanceChart.swift in Sources */,
+				B0000009 /* OnboardingApp/Components/KeyMoversCard.swift in Sources */,
+				B0000010 /* OnboardingApp/Components/MarketInsightsComponents.swift in Sources */,
+				B0000011 /* OnboardingApp/Components/NumericKeypad.swift in Sources */,
+				B0000012 /* OnboardingApp/Components/PINDotsView.swift in Sources */,
+				B0000013 /* OnboardingApp/Components/PrimaryButton.swift in Sources */,
+				B0000014 /* OnboardingApp/Components/QuickActionsView.swift in Sources */,
+				B0000015 /* OnboardingApp/Components/RecentActivityView.swift in Sources */,
+				B0000016 /* OnboardingApp/Components/RiskSlider.swift in Sources */,
+				B0000017 /* OnboardingApp/Components/SelectableCard.swift in Sources */,
+				B0000018 /* OnboardingApp/Components/SparklineView.swift in Sources */,
+				B0000019 /* OnboardingApp/Components/StepProgressView.swift in Sources */,
+				B0000020 /* OnboardingApp/Components/SynchronizedAccountsComponents.swift in Sources */,
+				B0000021 /* OnboardingApp/Components/TimeframeSegmentedControl.swift in Sources */,
+				B0000022 /* OnboardingApp/ContentView.swift in Sources */,
+				B0000023 /* OnboardingApp/DesignSystem.swift in Sources */,
+				B0000024 /* OnboardingApp/Models/AccountRankingModels.swift in Sources */,
+				B0000025 /* OnboardingApp/Models/AttentionModels.swift in Sources */,
+				B0000026 /* OnboardingApp/Models/BankLinkingModels.swift in Sources */,
+				B0000027 /* OnboardingApp/Models/InvestorProfile.swift in Sources */,
+				B0000028 /* OnboardingApp/Models/InvestorProfilingStep.swift in Sources */,
+				B0000029 /* OnboardingApp/Models/MarketInsightsModels.swift in Sources */,
+				B0000030 /* OnboardingApp/Models/OnboardingStep.swift in Sources */,
+				B0000031 /* OnboardingApp/Models/PerformanceModels.swift in Sources */,
+				B0000032 /* OnboardingApp/Models/PortfolioModels.swift in Sources */,
+				B0000091 /* OnboardingApp/Models/DashboardNotification.swift in Sources */,
+				B0000033 /* OnboardingApp/Models/SynchronizedAccountsModels.swift in Sources */,
+				B0000034 /* OnboardingApp/Models/UserModel.swift in Sources */,
+				B0000035 /* OnboardingApp/OnboardingApp.swift in Sources */,
+				B0000036 /* OnboardingApp/Services/AuthenticationService.swift in Sources */,
+				B0000037 /* OnboardingApp/Services/PINService.swift in Sources */,
+				B0000038 /* OnboardingApp/Services/ValidationService.swift in Sources */,
+				B0000090 /* OnboardingApp/Services/DemoDataStore.swift in Sources */,
+				B0000092 /* OnboardingApp/Services/PulseCreditsStore.swift in Sources */,
+				B0000093 /* OnboardingApp/Services/DailyCreditStore.swift in Sources */,
+				B0000039 /* OnboardingApp/ViewModels/AccountRankingViewModel.swift in Sources */,
+				B0000040 /* OnboardingApp/ViewModels/AccountViewModel.swift in Sources */,
+				B0000041 /* OnboardingApp/ViewModels/AttentionCenterViewModel.swift in Sources */,
+				B0000042 /* OnboardingApp/ViewModels/BankLinkingViewModel.swift in Sources */,
+				B0000043 /* OnboardingApp/ViewModels/InvestorProfilingViewModel.swift in Sources */,
+				B0000044 /* OnboardingApp/ViewModels/LoginViewModel.swift in Sources */,
+				B0000045 /* OnboardingApp/ViewModels/MarketInsightsViewModel.swift in Sources */,
+				B0000046 /* OnboardingApp/ViewModels/OnboardingViewModel.swift in Sources */,
+				B0000047 /* OnboardingApp/ViewModels/PerformanceViewModel.swift in Sources */,
+				B0000048 /* OnboardingApp/ViewModels/PortfolioViewModel.swift in Sources */,
+				B0000049 /* OnboardingApp/ViewModels/SynchronizedAccountsViewModel.swift in Sources */,
+				B0000050 /* OnboardingApp/Views/Account/AccountView.swift in Sources */,
+				B0000051 /* OnboardingApp/Views/Account/HelpView.swift in Sources */,
+				B0000052 /* OnboardingApp/Views/Account/LegalDocumentsSheet.swift in Sources */,
+				B0000053 /* OnboardingApp/Views/Account/NotificationsSettingsView.swift in Sources */,
+				B0000054 /* OnboardingApp/Views/Account/PersonalInfoView.swift in Sources */,
+				B0000055 /* OnboardingApp/Views/Account/SyncedAccountsView.swift in Sources */,
+				B0000056 /* OnboardingApp/Views/AccountRankingView.swift in Sources */,
+				B0000057 /* OnboardingApp/Views/AnalysisView.swift in Sources */,
+				B0000058 /* OnboardingApp/Views/AuthEntryView.swift in Sources */,
+				B0000059 /* OnboardingApp/Views/BankLinking/AccountSelectionStepView.swift in Sources */,
+				B0000060 /* OnboardingApp/Views/BankLinking/BankLinkingContainerView.swift in Sources */,
+				B0000061 /* OnboardingApp/Views/BankLinking/BankSelectionStepView.swift in Sources */,
+				B0000062 /* OnboardingApp/Views/BankLinking/SecureBridgeInterstitialView.swift in Sources */,
+				B0000063 /* OnboardingApp/Views/ForgotPINView.swift in Sources */,
+				B0000064 /* OnboardingApp/Views/FullAnalysisSheet.swift in Sources */,
+				B0000065 /* OnboardingApp/Views/HomeView.swift in Sources */,
+				B0000066 /* OnboardingApp/Views/InvestView.swift in Sources */,
+				B0000067 /* OnboardingApp/Views/InvestorProfilingContainerView.swift in Sources */,
+				B0000068 /* OnboardingApp/Views/LoginView.swift in Sources */,
+				B0000069 /* OnboardingApp/Views/MainTabView.swift in Sources */,
+				B0000070 /* OnboardingApp/Views/MarketInsightsView.swift in Sources */,
+				B0000071 /* OnboardingApp/Views/OnboardingContainerView.swift in Sources */,
+				B0000072 /* OnboardingApp/Views/PerformanceView.swift in Sources */,
+				B0000073 /* OnboardingApp/Views/ProfilingSteps/InvestmentObjectiveStepView.swift in Sources */,
+				B0000074 /* OnboardingApp/Views/ProfilingSteps/KnowledgeLevelStepView.swift in Sources */,
+				B0000075 /* OnboardingApp/Views/ProfilingSteps/RiskAppetiteStepView.swift in Sources */,
+				B0000076 /* OnboardingApp/Views/PulseAssistantView.swift in Sources */,
+				B0000077 /* OnboardingApp/Views/PulseDashboardView.swift in Sources */,
+				B0000094 /* OnboardingApp/Views/DailyCredit/DailyCreditSheet.swift in Sources */,
+				B0000095 /* OnboardingApp/Views/DailyCredit/DailyCreditSuccessView.swift in Sources */,
+				B0000078 /* OnboardingApp/Views/PulseView.swift in Sources */,
+				B0000079 /* OnboardingApp/Views/Steps/AgeStepView.swift in Sources */,
+				B0000080 /* OnboardingApp/Views/Steps/EmailStepView.swift in Sources */,
+				B0000081 /* OnboardingApp/Views/Steps/NameStepView.swift in Sources */,
+				B0000082 /* OnboardingApp/Views/Steps/PINConfirmationView.swift in Sources */,
+				B0000083 /* OnboardingApp/Views/Steps/PINCreationView.swift in Sources */,
+				B0000084 /* OnboardingApp/Views/Steps/VerificationStepView.swift in Sources */,
+				B0000085 /* OnboardingApp/Views/AuthLandingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1000600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1000601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1000602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OnboardingApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Moula/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Moola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1000603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OnboardingApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Moula/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Moola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1000401 /* Build configuration list for PBXNativeTarget "Moola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000602 /* Debug */,
+				A1000603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000501 /* Build configuration list for PBXProject "Moola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000600 /* Debug */,
+				A1000601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1000500 /* Project object */;
+}

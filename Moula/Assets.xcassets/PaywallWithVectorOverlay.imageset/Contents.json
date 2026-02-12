@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "PaywallWithVectorOverlay.svg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "PaywallWithVectorOverlay@2x.svg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "PaywallWithVectorOverlay@3x.svg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
