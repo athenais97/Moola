@@ -1,4 +1,4 @@
-# Moula (iOS)
+# Moola (iOS)
 
 This repository contains an iOS app built with Xcode / SwiftUI.
 
