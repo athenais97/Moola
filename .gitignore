@@ -4,6 +4,7 @@
 # Xcode
 DerivedData/
 build/
+.derivedData_local/
 xcuserdata/
 *.xcuserstate
 *.xccheckout
@@ -37,4 +38,7 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Local scratch files (accidental)
+eval "$(ssh-agent -s)"*
 

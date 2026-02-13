@@ -611,9 +611,7 @@ struct AttentionSuccessToast: View {
 
 #Preview("Attention Center - Multiple Items") {
     let viewModel = AttentionCenterViewModel()
-    viewModel.loadSampleData()
-    
-    return VStack {
+    VStack {
         AttentionCenterView(
             viewModel: viewModel,
             isPrivacyMode: false,
@@ -623,12 +621,17 @@ struct AttentionSuccessToast: View {
     }
     .padding(.top, 20)
     .background(Color(.systemGroupedBackground))
+    .task {
+        #if DEBUG
+        viewModel.loadSampleData()
+        #endif
+    }
 }
 
 #Preview("Attention Center - All Clear") {
     let viewModel = AttentionCenterViewModel()
     
-    return VStack {
+    VStack {
         AttentionCenterView(
             viewModel: viewModel,
             isPrivacyMode: false,
@@ -688,5 +691,5 @@ struct AttentionSuccessToast: View {
 #Preview("Mute Preferences") {
     let viewModel = AttentionCenterViewModel()
     
-    return MutePreferencesSheet(viewModel: viewModel)
+    MutePreferencesSheet(viewModel: viewModel)
 }

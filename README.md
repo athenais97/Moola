@@ -2,6 +2,10 @@
 
 This repository contains an iOS app built with Xcode / SwiftUI.
 
+## Documentation
+
+- `docs/TECH_STACK_ARCHITECTURE_REVENUECAT.md` — tech stack, app architecture, and RevenueCat notes
+
 ## Requirements
 
 - macOS with Xcode installed (latest stable recommended)

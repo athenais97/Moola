@@ -1,6 +1,8 @@
 import SwiftUI
 import CoreText
 
+import RevenueCat
+
 /// Ensures bundled custom fonts are registered at runtime.
 ///
 /// Notes:
@@ -27,15 +29,21 @@ private enum FontRegistration {
 @main
 struct MoolaApp: App {
     @StateObject private var appState = AppState()
+    @StateObject private var subscriptions = SubscriptionManager()
     
     init() {
         FontRegistration.registerBundledFonts()
+        
+        Purchases.configure(withAPIKey: "test_TidxjFbILwYCQojoLVyOOhqPKUe")
     }
     
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environmentObject(appState)
+                .environmentObject(subscriptions)
+                // Start after SwiftUI installs the StateObject.
+                .task { subscriptions.start() }
         }
     }
 }

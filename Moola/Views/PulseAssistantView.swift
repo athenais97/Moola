@@ -957,6 +957,7 @@ private struct PulseCreditsPaywallBanner: View {
 private struct PulseCreditsPaywallSheet: View {
     let onStartTrial: () -> Void
     let onDismiss: () -> Void
+    @State private var showMoolaProPaywall: Bool = false
     
     var body: some View {
         NavigationStack {
@@ -1007,6 +1008,8 @@ private struct PulseCreditsPaywallSheet: View {
                     
                     VStack(spacing: 10) {
                         PrimaryButton(title: "Start free trial") {
+                            // Keep existing dismissal behavior, but also present RevenueCat paywall.
+                            showMoolaProPaywall = true
                             onStartTrial()
                         }
                         
@@ -1030,6 +1033,9 @@ private struct PulseCreditsPaywallSheet: View {
                         .font(.system(size: 16, weight: .semibold))
                 }
             }
+        }
+        .sheet(isPresented: $showMoolaProPaywall) {
+            MoolaProPaywallSheet()
         }
     }
 }

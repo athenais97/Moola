@@ -22,6 +22,7 @@ import SwiftUI
 /// 4. Legal Disclaimer - Always visible at bottom
 struct MarketInsightsView: View {
     @EnvironmentObject var appState: AppState
+    @EnvironmentObject private var subscriptions: SubscriptionManager
     @StateObject private var viewModel = MarketInsightsViewModel()
     
     @Environment(\.dismiss) private var dismiss
@@ -209,6 +210,9 @@ struct MarketInsightsView: View {
     }
     
     private var hasInsightsAccess: Bool {
+        // Prefer real entitlement state if available.
+        // Falls back to the local membership flag.
+        if subscriptions.isPro { return true }
         let level = appState.currentUser?.membershipLevel ?? .standard
         return level != .standard
     }

@@ -333,6 +333,7 @@ extension View {
 /// Account tab content (different from the full-screen AccountView modal).
 struct AccountTabView: View {
     @EnvironmentObject var appState: AppState
+    @EnvironmentObject private var subscriptions: SubscriptionManager
     
     var body: some View {
         NavigationStack {
@@ -500,6 +501,20 @@ struct AccountTabView: View {
     
     private var infoGroupCard: some View {
         VStack(spacing: 0) {
+            NavigationLink {
+                MoolaProView()
+                    .environmentObject(subscriptions)
+            } label: {
+                ProfileRow(
+                    iconSystemName: "crown",
+                    title: "Moola Pro",
+                    titleColor: DesignSystem.Colors.ink
+                )
+            }
+            .buttonStyle(.plain)
+            
+            Divider().overlay(DesignSystem.Colors.separator)
+            
             NavigationLink {
                 PersonalInfoView()
                     .environmentObject(appState)
