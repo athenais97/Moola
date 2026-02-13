@@ -27,6 +27,8 @@ final class SubscriptionManager: ObservableObject {
     private var customerInfoTask: Task<Void, Never>?
     
     func start() {
+        // RevenueCat APIs can trap if called before `Purchases.configure(...)`.
+        guard Purchases.isConfigured else { return }
         guard !started else { return }
         started = true
         
@@ -47,6 +49,7 @@ final class SubscriptionManager: ObservableObject {
     }
     
     func refresh() async {
+        guard Purchases.isConfigured else { return }
         do {
             async let info = Purchases.shared.customerInfo()
             async let offs = Purchases.shared.offerings()
@@ -61,6 +64,7 @@ final class SubscriptionManager: ObservableObject {
     }
     
     func restorePurchases() async {
+        guard Purchases.isConfigured else { return }
         do {
             let info = try await Purchases.shared.restorePurchases()
             apply(customerInfo: info)
@@ -71,6 +75,7 @@ final class SubscriptionManager: ObservableObject {
     }
     
     func purchase(package: Package) async {
+        guard Purchases.isConfigured else { return }
         do {
             let result = try await Purchases.shared.purchase(package: package)
             apply(customerInfo: result.customerInfo)
