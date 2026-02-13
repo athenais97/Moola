@@ -33,8 +33,18 @@ struct MoolaApp: App {
     
     init() {
         FontRegistration.registerBundledFonts()
-        
-        Purchases.configure(withAPIKey: "test_TidxjFbILwYCQojoLVyOOhqPKUe")
+
+        // IMPORTANT (App Store / TestFlight):
+        // RevenueCat iOS SDK keys typically start with "appl_".
+        // Avoid crashing on launch if an invalid/non-production key is present.
+        let revenueCatAPIKey = "test_TidxjFbILwYCQojoLVyOOhqPKUe"
+#if DEBUG
+        Purchases.configure(withAPIKey: revenueCatAPIKey)
+#else
+        if revenueCatAPIKey.hasPrefix("appl_") {
+            Purchases.configure(withAPIKey: revenueCatAPIKey)
+        }
+#endif
     }
     
     var body: some Scene {
